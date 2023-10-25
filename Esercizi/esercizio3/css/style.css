@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+}
+#logo {
+    width: 150px;
+}
+#barraHeader {
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    background-color: rgb(255, 250, 210);
+    color: darkcyan;
+    border-top: 2px solid khaki;
+}
+#articolo {
+    width: 40vw;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.centrato {
+    text-align: center;
+}
+#captionImmagine {
+    color: dimgrey;
+}
+#featured {
+    color: coral;
+}
+#divFeature {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-left: 2px solid khaki;
+}
+#immagine {
+    width: 100%;
+    border-radius: 10px;
+}
+#figureImmagine {
+    margin: 0;
+    width: 100%;
+}
+.titoloParagrafo {
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(149, 222, 222) solid;
+}
+.grassetto {
+    font-weight: bold;
+}
+h1 {
+    padding-top: 10px;
+}
