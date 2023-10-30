@@ -1,0 +1,152 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 0.9em;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+#divBody {
+    padding: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    background-image: url("../img/sfondo.png");
+}
+#divBianco { 
+    background-color: white;
+    padding: 20px 15px;
+    margin-top: 20px;
+    box-shadow: 1px 3px 3px #c2bcbc;
+
+}
+b, strong {
+    font-weight: bold;
+}
+span {
+    color: fuchsia;
+}
+em {
+    background-color: lightgrey ;
+    border: grey solid 1px;
+    border-radius: 7px;
+}
+/* HEADER */
+#logo {
+    width: 200px;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+nav {
+    padding-top: 20px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+}
+nav > ul > li > a:visited {
+    color: white;
+}
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(70,70,214,1) 58%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 3px 3px #c2bcbc;
+}
+p {
+    margin: 20px 0px;
+}
+ol {
+    list-style: decimal;
+    margin-left: 20px;
+}
+.maiuscolo {
+    text-transform: uppercase;
+    font-size: x-large;
+    text-align: center;
+}
+
+/* MAIN */
+
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#sottotitolo {
+    color: grey;
+}
+#lista2 > li::before {
+    content: " • ";
+}
+#lista2 {
+    margin-left: 10px;
+}
+/* TABELLE */
+th {
+    color: white;
+    background-color: dodgerblue;
+}
+th, td:not(:last-child) {
+    border-right: lightgrey solid 1px;
+}
+th, td, tr {
+    padding: 5px;
+    vertical-align: bottom;
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+    border-bottom:grey solid 1px;
+    border-top: grey solid 1px;
+}
+table {
+    border-bottom: dodgerblue solid 1px;
+    text-align: center;
+}
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* FORM */
+#sectionNovita {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+}
+#sectionNovita > p {
+    text-align: left;
+}
+#inputEmail {
+    width: 120px;
+    border: 0;
+    border-bottom: grey dashed 1px;
+}
+#inputIscriviti {
+    cursor: pointer;
+    font-weight: bold;
+    border: 0px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(70,70,214,1) 58%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    box-shadow: 1px 3px 3px #c2bcbc;
+
+}
